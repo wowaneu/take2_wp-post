@@ -1,0 +1,26 @@
+{
+  "name": "take2_wp-post",
+  "version": "1.0.0",
+  "description": "webpack + posts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowaneu/take2_wp-post.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Vladimir Ney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wowaneu/take2_wp-post/issues"
+  },
+  "homepage": "https://github.com/wowaneu/take2_wp-post#readme",
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+}
+.wrapper {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#losers, #post, #content {
+    width: 30%;
+}
+.losers-list, .posts-list {
+    list-style: none;
+}
+.losers-list li {
+    margin: 5px;
+    padding: 1px;
+    border: 3px  rgb(187, 185, 185);
+    border-style: ridge;
+    background-color: #333;
+    color: #888;
+    cursor: pointer;
+}
+
+.losers-list li:hover {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(170, 170, 170);
+}
+
+.posts-list li {
+    margin: 5px;
+    padding: 1px;
+    font-weight: 200;
+    border: 3px  rgb(187, 185, 185);
+    border-style: ridge;
+    background-color: #333;
+    color: #888;
+    cursor: pointer;
+}
+.posts-list li:hover {
+    font-weight: bolder;
+    color: rgb(170, 170, 170);
+}
+
+.posts-list li.complited {
+    color: rgba(36, 1, 232, 0.872);
+    text-decoration: line-through;
+}
+.message {
+    margin: 5px;
+    padding: 1px;
+    font-weight: 200;
+    border: 3px  rgb(187, 185, 185);
+    border-style: ridge;
+    background-color: #333;
+    color: #888;
+    /* display: none; */
+}
+.reading {
+    margin: 5px;
+    padding: 1px;
+    font-weight: 200;
+    border: 3px  rgb(187, 185, 185);
+    border-style: ridge;
+    background-color: #333;
+    color: #888;
+    display: block;
+}
+
